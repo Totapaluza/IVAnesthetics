@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikko's Memory Game: IV Anesthesia Agents</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Nikko's Memory Game: IV Anesthestetic Agents</h1>
+
+<table id="anesthesiaTable">
+    <tr>
+        <th>IV Agent</th>
+        <th>Acid/Base Drug</th>
+        <th>pKa</th>
+        <th>Protein Binding</th>
+        <th>IV Initial Dose</th>
+        <th>t1/2pi</th>
+        <th>t1/2alpha</th>
+        <th>t1/2beta</th>
+    </tr>
+    <tr>
+        <td data-answer="Thiopental">Thiopental</td>
+        <td data-answer="Acid">Acid</td>
+        <td data-answer="7.6">7.6</td>
+        <td data-answer="72-86%">72-86%</td>
+        <td data-answer="3-5mg/kg">3-5mg/kg</td>
+        <td data-answer="15-20s">15-20s</td>
+        <td data-answer="5-10m">5-10m</td>
+        <td data-answer="12h">12h</td>
+    </tr>
+    <tr>
+        <td data-answer="Propofol">Propofol</td>
+        <td data-answer=""></td>
+        <td data-answer="11.03">11.03</td>
+        <td data-answer="97%">97%</td>
+        <td data-answer="2-2.5mg/kg">2-2.5mg/kg</td>
+        <td data-answer="15-40s">15-40s</td>
+        <td data-answer="4-8m">4-8m</td>
+        <td data-answer="0.9h">0.9h</td>
+    </tr>
+    <tr>
+        <td data-answer="Fospropofol">Fospropofol</td>
+        <td data-answer=""></td>
+        <td data-answer=""></td>
+        <td data-answer=""></td>
+        <td data-answer="1.86mg/1mg propofol">1.86mg/1mg propofol</td>
+        <td data-answer="4m">4m</td>
+        <td data-answer="20m">20m</td>
+        <td data-answer="2h">2h</td>
+    </tr>
+    <tr>
+        <td data-answer="Etomidate">Etomidate</td>
+        <td data-answer="Base">Base</td>
+        <td data-answer="4.2">4.2</td>
+              <td data-answer="76%">76%</td>
+              <td data-answer="0.3mg/kg">0.3mg/kg</td>
+        <td data-answer="15-40s">15-40s</td>
+        <td data-answer="2-6m">2-6m</td>
+        <td data-answer="2.9h">2.9h</td>
+    </tr>
+    <tr>
+        <td data-answer="Ketamine">Ketamine</td>
+        <td data-answer=""></td>
+        <td data-answer="7.5">7.5</td>
+              <td data-answer="10-30%">10-30%</td>
+              <td data-answer="1-2mg/kg">1-2mg/kg</td>
+        <td data-answer=""></td>
+        <td data-answer="2-4m">2-4m</td>
+        <td data-answer="2-4h">2-4h</td>
+    </tr>
+    <tr>
+        <td data-answer="Dexmedetomidine">Dexmedetomidine</td>
+        <td data-answer=""></td>
+        <td data-answer="7.1">7.1</td>
+              <td data-answer="94%">94%</td>
+              <td data-answer="1mcg/kg over 10m">1mcg/kg over 10m</td>
+        <td data-answer=""></td>
+        <td data-answer="6m">6m</td>
+        <td data-answer="2h">2h</td>
+    </tr>
+</table>
+
+<!-- Buttons for Rapid Fire, Test Yourself, Shuffling, Checking, and Resetting -->
+<button id="rapidFireButton" onclick="rapidFire()">Rapid Fire</button>
+<button id="testYourselfButton" onclick="testYourself()">TEST YOURSELF</button>
+<button id="shuffleButton" onclick="shuffleBlanks()">Shuffle Blanks</button>
+<button id="checkButton" onclick="checkAnswers()" disabled>Check Answers</button>
+<button id="resetButton" onclick="resetGame()">Reset Game</button>
+
+<script src="script.js"></script>
+</body>
+</html>
